@@ -3,14 +3,14 @@ apps:
     name: 'web'
     node_args: --nouse-idle-notification --expose-gc --inspect
     env:
-      HOSTURL: 'http://localhost'
+      HOSTURL: 'https://railway.com/project/27901422-4787-414d-a153-0e62b012fd1f/service/a218157a-22c8-4dcd-9f54-ad1c15174a53/variables?environmentId=0bc5a9f5-bb76-4fac-bb47-0869d6ecaa54'
       ASSET_SERVER: 'http://localhost'
       PORT: 80
-      REDIS_URL: 'redis://localhost:6379'
-      MYSQL_HOST: 'localhost'
-      MYSQL_USER: 'pixelplanet'
-      MYSQL_DATABASE: 'pixelplanet'
+      REDIS_URL: 'redis://default:QkKUojpPEeisrbSKlAHLjihtdDAqHKNt@redis.railway.internal:6379'
+      MYSQL_HOST: 'mysql.railway.internal'
+      MYSQL_USER: 'root'
+      MYSQL_DATABASE: 'railway'
       LOG_MYSQL: 1
-      MYSQL_PW: 'sqlpassword'
+      MYSQL_PW: 'EHFHtKexbjTcWWJATXtljnMCPxovDfpF'
       SESSION_SECRET: 'ayyylmao'
       ADMIN_IDS: '1,2'
