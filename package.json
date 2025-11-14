@@ -145,3 +145,4 @@
     "webpack-hot-middleware": "^2.18.0",
     "write-file-webpack-plugin": "^4.0.2"
   }
+}
